@@ -1,0 +1,9 @@
+#exemplo1 {
+    background-color: blueviolet;
+    padding: 20px 50px 20px 50px; /*altera dentro do elemento*/
+    /* margin: 50px 50px 50px 50px; */
+}
+#exemplo2{
+    background-color: brown;
+    margin: 50px 50px 50px 50px; /* altera fora do elemento*/
+}
