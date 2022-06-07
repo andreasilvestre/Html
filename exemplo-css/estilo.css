@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pai {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 30px auto;
+    position: relative;
+}
+
+.filho1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.filho2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+h1 {
+    background-color: chocolate;
+    display: inline;
+}
+
+span {
+    background-color: blueviolet;
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 150px;
+    background-color: darkgray;
+}
+
+.div {
+    background-color: darkgreen;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+}

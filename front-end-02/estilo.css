@@ -8,21 +8,15 @@
     width: 400px;
     position: relative;
     display: flex;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
     justify-content: space-between;
-    /*flex-direction:column-reverse;*/
-    flex-direction: column;
+    flex-direction: column; /*flex-direction:column-reverse;*/
     background-color: blue;
     border-radius: 10%;
-    align-items:flex-end;
-    /*align-content:flex-end;*/
+    align-items:flex-end; /* align-content:flex-end; */
     margin: 50px auto; /*o 50px empurra pra baixo; o auto coloca no centro o template*/
     /*overflow:auto;*/
     overflow: hidden;
-
-    /* 
-    flex-direction:column-reverse;
-     */
 }
 
 .elemento {
@@ -31,9 +25,9 @@
     background-color:red;
     font-weight: bold;
     font-size: 100;  
-
+    
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
 
