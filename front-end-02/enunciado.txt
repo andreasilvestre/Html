@@ -1,0 +1,2 @@
+Editando SOMENTE o arquivo "estilo.css", aplique propriedades 
+do CSS para que o "index.html" seja renderizado conforme o "template.png".
